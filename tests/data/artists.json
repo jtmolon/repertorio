@@ -1,0 +1,215 @@
+{
+    "type": "artists",
+    "itemsPerPage": 30,
+    "page": 1,
+    "total": 50,
+    "artist": [
+        {
+            "mbid": "4bd95eea-b9f6-4d70-a36c-cfea77431553",
+            "tmid": 734408,
+            "name": "Alice in Chains",
+            "sortName": "Alice in Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/alice-in-chains-53d68b9d.html"
+        },
+        {
+            "mbid": "e6024269-8a9f-423d-ad53-de7a7b698b89",
+            "tmid": 1489485,
+            "name": "Wisdom in Chains",
+            "sortName": "Wisdom in Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/wisdom-in-chains-4bd7a76a.html"
+        },
+        {
+            "mbid": "d608936a-cb77-4c3d-ae78-ea404773165f",
+            "name": "Whips / Chains",
+            "sortName": "Whips / Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/whips-chains-23de6c67.html"
+        },
+        {
+            "mbid": "ab8ea4b5-09f3-4a8b-9c5f-79ab83aef73c",
+            "name": "Matt Megrue & The Daisy Chains",
+            "sortName": "Matt Megrue & The Daisy Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/matt-megrue-and-the-daisy-chains-1bc7a93c.html"
+        },
+        {
+            "mbid": "936dd318-e061-435e-a04a-ddbc48327c83",
+            "name": "Heavy Chains",
+            "sortName": "Heavy Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/heavy-chains-63d8fe9f.html"
+        },
+        {
+            "mbid": "5b47f93e-bae5-4c6a-b1c7-fe0abd65fcd0",
+            "name": "Alice N' Chains",
+            "sortName": "Alice N' Chains",
+            "disambiguation": "Layne Staley's glam metal band before he joined Alice In Chains",
+            "url": "https://www.setlist.fm/setlists/alice-n-chains-7bcd9a94.html"
+        },
+        {
+            "mbid": "92e53c4c-1796-4c5c-a649-c9b4a7352672",
+            "name": "Daisy Chains",
+            "sortName": "Daisy Chains",
+            "disambiguation": "Portree High School band",
+            "url": "https://www.setlist.fm/setlists/daisy-chains-63dd8e33.html"
+        },
+        {
+            "mbid": "408282e0-4fcb-497d-8fdf-77ab3e255f62",
+            "name": "Chains Of Love",
+            "sortName": "Chains Of Love",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/chains-of-love-5bdfafc8.html"
+        },
+        {
+            "mbid": "34709562-1f73-4092-9a25-27d64895921b",
+            "name": "Gold Chains",
+            "sortName": "Gold Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/gold-chains-1bd79dfc.html"
+        },
+        {
+            "mbid": "d579d194-66ce-4204-afd9-136a21c58308",
+            "name": "Chains",
+            "sortName": "Chains",
+            "disambiguation": "Japanese",
+            "url": "https://www.setlist.fm/setlists/chains-4bce037e.html"
+        },
+        {
+            "mbid": "e66963b6-84f1-4e74-8cb6-9b3e3ec75312",
+            "name": "Chains",
+            "sortName": "Chains",
+            "disambiguation": "metal",
+            "url": "https://www.setlist.fm/setlists/chains-73dc1af9.html"
+        },
+        {
+            "mbid": "a989af58-5f6d-4f34-b1c8-1c7483496b93",
+            "name": "Melissa Chains",
+            "sortName": "Melissa Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/melissa-chains-2bc94c3a.html"
+        },
+        {
+            "mbid": "b8172efe-033c-4722-8ba1-fe761c4702a3",
+            "name": "Dead Chains",
+            "sortName": "Dead Chains",
+            "disambiguation": "horror industrial",
+            "url": "https://www.setlist.fm/setlists/dead-chains-33f6ac3d.html"
+        },
+        {
+            "mbid": "da3a7ad8-0540-49d2-997a-1d2cf0771e47",
+            "name": "Rusty Chains",
+            "sortName": "Rusty Chains",
+            "url": "https://www.setlist.fm/setlists/rusty-chains-3bd00874.html"
+        },
+        {
+            "mbid": "f6d5efd6-ffe6-4993-9381-683ac27a477c",
+            "name": "The Chains",
+            "sortName": "Chains, The",
+            "disambiguation": "Russian metal?",
+            "url": "https://www.setlist.fm/setlists/the-chains-6bc12e62.html"
+        },
+        {
+            "mbid": "066e9df5-76b3-47e2-8878-cfebc51d7ad4",
+            "name": "In Chains",
+            "sortName": "In Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/in-chains-63cb4aaf.html"
+        },
+        {
+            "mbid": "ac17387a-ddc3-4d6f-b218-a6b1e3cecdfe",
+            "name": "Dazy Chains",
+            "sortName": "Dazy Chains",
+            "url": "https://www.setlist.fm/setlists/dazy-chains-43d77f67.html"
+        },
+        {
+            "mbid": "0750a12c-0189-4c7d-819b-62540f7bb615",
+            "name": "Invisible Chains",
+            "sortName": "Invisible Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/invisible-chains-43db1f3b.html"
+        },
+        {
+            "mbid": "1ac4b485-49d7-48d1-8693-f4c80c1352b0",
+            "name": "2 Chains",
+            "sortName": "2 Chains",
+            "disambiguation": "German trance",
+            "url": "https://www.setlist.fm/setlists/2-chains-63d7ea2b.html"
+        },
+        {
+            "mbid": "d15def3d-9a1c-432b-a9cd-eb74da43e53d",
+            "name": "Wallace Chains",
+            "sortName": "Chains, Wallace",
+            "url": "https://www.setlist.fm/setlists/wallace-chains-3d5ed83.html"
+        },
+        {
+            "mbid": "4f083c26-8c0e-4d74-a740-9191a1948cf8",
+            "name": "The Chains",
+            "sortName": "Chains, The",
+            "disambiguation": "60's US garage rock band from El Paso, TX",
+            "url": "https://www.setlist.fm/setlists/the-chains-bcd7daa.html"
+        },
+        {
+            "mbid": "30471c29-01b8-43da-b047-c1a4add4654c",
+            "name": "Symbol Chains",
+            "sortName": "Symbol Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/symbol-chains-4bc06f96.html"
+        },
+        {
+            "mbid": "08caeaa9-fafe-4e52-804f-a785230b24d8",
+            "name": "Shaking Chains",
+            "sortName": "Shaking Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/shaking-chains-43cfbf17.html"
+        },
+        {
+            "mbid": "78fc0cb6-120a-4da3-beaa-2328a4f13752",
+            "name": "Choke Chains",
+            "sortName": "Choke Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/choke-chains-1bc51520.html"
+        },
+        {
+            "mbid": "8ef616c6-a841-4e5b-9b8c-b817be7f45b2",
+            "name": "The Chains",
+            "sortName": "Chains, the",
+            "disambiguation": "Canadian garage rock band",
+            "url": "https://www.setlist.fm/setlists/the-chains-63d27e87.html"
+        },
+        {
+            "mbid": "5ec4ba3a-83b9-4623-9f63-8a1e3cfa1de5",
+            "name": "Alice’N Chains",
+            "sortName": "Alice’N Chains",
+            "url": "https://www.setlist.fm/setlists/alicen-chains-1bd2991c.html"
+        },
+        {
+            "mbid": "df576f5a-95ca-494a-9948-f60f5e3caffd",
+            "name": "No Chains",
+            "sortName": "No Chains",
+            "url": "https://www.setlist.fm/setlists/no-chains-2bd06872.html"
+        },
+        {
+            "mbid": "7faf34bd-259e-45d5-a39d-e3ca2d2edcb0",
+            "name": "Soul's Chains",
+            "sortName": "Soul's Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/souls-chains-43d91f3b.html"
+        },
+        {
+            "mbid": "89de3b71-65af-4689-a044-8cd0de653cbf",
+            "name": "Alison Chains",
+            "sortName": "Chains, Alison",
+            "disambiguation": "graphic design",
+            "url": "https://www.setlist.fm/setlists/alison-chains-13cd2521.html"
+        },
+        {
+            "mbid": "13f85bda-5f2e-4ad1-bd9c-3b5dd456aa16",
+            "name": "Seven Chains",
+            "sortName": "Seven Chains",
+            "disambiguation": "",
+            "url": "https://www.setlist.fm/setlists/seven-chains-3bcd887c.html"
+        }
+    ]
+}
