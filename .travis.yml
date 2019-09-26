@@ -6,3 +6,4 @@ install:
   - pipenv install -d
 script:
   - pytest --cov=repertorio/
+  - coveralls
