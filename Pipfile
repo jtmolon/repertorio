@@ -12,6 +12,7 @@ pytest = "*"
 pytest-cov = "*"
 pre-commit = "*"
 flake8 = "*"
+coveralls = "*"
 
 [packages]
 requests = "*"
