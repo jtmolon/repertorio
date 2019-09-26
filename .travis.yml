@@ -2,8 +2,6 @@ language: python
 python:
   - "3.7"
 install:
-  - pip install pipenv
-  - pipenv install -d
+  - pip install tox
 script:
-  - pytest --cov=repertorio/
-  - coveralls
+  - tox
