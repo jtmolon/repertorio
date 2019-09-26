@@ -5,4 +5,4 @@ install:
   - pip install pipenv
   - pipenv install -d
 script:
-  - pytest
+  - pytest --cov=repertorio/
