@@ -2,13 +2,14 @@
 
 """A setlist.fm API wrapper"""
 import logging
+from typing import Any, Callable, Dict, Optional
 
 import requests
 from requests.exceptions import HTTPError, Timeout, TooManyRedirects
 
-logger = logging.getLogger(__name__)
+logger: logging.Logger = logging.getLogger(__name__)
 
-SEARCH = {
+SEARCH: Dict[str, str] = {
     "artists": "search/artists",
     "cities": "search/cities",
     "countries": "search/countries",
@@ -16,7 +17,7 @@ SEARCH = {
     "venues": "search/venues",
 }
 
-RESOURCE = {
+RESOURCE: Dict[str, str] = {
     "artist": "artist/{pk}",
     "artist_setlists": "artist/{pk}/setlists",
     "city": "city/{pk}",
@@ -45,18 +46,18 @@ class MissingPKForResource(TypeError):
 class Repertorio:
     """setlist.fm API wrapper class"""
 
-    def __init__(self, api_key):
+    def __init__(self, api_key: str) -> None:
         """Constructs the API wrapper object.
 
         :param api_key: The API access key
         :type api_key: str
         """
-        self.api_key = api_key
-        self.url = "https://api.setlist.fm/rest/1.0/"
-        self.headers = {"x-api-key": api_key, "Accept": "application/json"}
-        self.session = requests.Session()
+        self.api_key: str = api_key
+        self.url: str = "https://api.setlist.fm/rest/1.0/"
+        self.headers: Dict[str, str] = {"x-api-key": api_key, "Accept": "application/json"}
+        self.session: requests.Session = requests.Session()
 
-    def __getattr__(self, attr):
+    def __getattr__(self, attr: str) -> Callable[[Any, Any], Any]:
         """Endpoint wrapper
 
         :param attr: endpoint identifier
@@ -67,21 +68,21 @@ class Repertorio:
         """
         if attr in SEARCH:
 
-            def search(*args, **kwargs):
+            def search(*args: Any, **kwargs: Any) -> Callable[[Any, Any], Any]:
                 return self._resource(SEARCH[attr], *args, **kwargs)
 
             return search
 
         if attr in RESOURCE:
 
-            def resource(*args, **kwargs):
+            def resource(*args: Any, **kwargs: Any) -> Callable[[Any, Any], Any]:
                 return self._resource(RESOURCE[attr], *args, **kwargs)
 
             return resource
 
         raise AttributeError
 
-    def _validate_request(self, endpoint, pk=None, **kwargs):
+    def _validate_request(self, endpoint: str, pk: Optional[str] = None, **kwargs: Any) -> None:
         """Validates endpoint request based on the type of resource being requested
         :param endpoint: resource endpoint identifier
         :type attr: str
@@ -103,7 +104,7 @@ class Repertorio:
         if endpoint in RESOURCE.values() and not pk:
             raise MissingPKForResource(endpoint)
 
-    def _resource(self, endpoint, pk=None, **kwargs):
+    def _resource(self, endpoint: str, pk: Optional[str] = None, **kwargs: Any) -> Any:
         """Get specific resource from an endpoint, given it's primary key
 
         :param endpoint: resource endpoint identifier
@@ -118,7 +119,7 @@ class Repertorio:
         :rtype: Any
         """
         self._validate_request(endpoint, pk, **kwargs)
-        request_kwargs = (
+        request_kwargs: Dict[str, Any] = (
             {"url": f"{self.url}{endpoint}".format(pk=pk)}
             if pk
             else {"url": f"{self.url}{endpoint}"}
@@ -126,7 +127,7 @@ class Repertorio:
         request_kwargs["params"] = kwargs
         return self._get(request_kwargs)
 
-    def _get(self, kwargs):
+    def _get(self, kwargs: Dict[str, Any]) -> Any:
         """Performs GET request to API
 
         :param kwargs: keyword arguments passed into the function, representing query string parameters for request
