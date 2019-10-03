@@ -8,7 +8,7 @@ Welcome to Repertorio's documentation!
 
 .. include:: ../../README.rst
 
-Fun fact: The name "repertorio" comes from the Portuguese word for "setlist"
+Fun fact: The name "repertorio" comes from the Portuguese word for "setlist".
 
 .. toctree::
    :maxdepth: 2

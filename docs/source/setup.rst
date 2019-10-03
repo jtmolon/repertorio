@@ -6,7 +6,7 @@ Prerequisites
 
 Repertorio works on Python 3.7+, and has the `requests <https://requests.kennethreitz.org/en/master/>`_ library as its sole dependency. It will be installed automatically, so nothing to worry about.
 
-To play around with the `setlist.fm <https://www.setlist.fm/>`_ API you'll need an API access key. You can easily get one `here <https://www.setlist.fm/signin>`_
+To play around with the `setlist.fm <https://www.setlist.fm/>`_ API you'll need an API access key. You can easily get one `here <https://www.setlist.fm/signin>`_.
 
 Installation
 ------------

@@ -54,7 +54,10 @@ class Repertorio:
         """
         self.api_key: str = api_key
         self.url: str = "https://api.setlist.fm/rest/1.0/"
-        self.headers: Dict[str, str] = {"x-api-key": api_key, "Accept": "application/json"}
+        self.headers: Dict[str, str] = {
+            "x-api-key": api_key,
+            "Accept": "application/json",
+        }
         self.session: requests.Session = requests.Session()
 
     def __getattr__(self, attr: str) -> Callable[[Any, Any], Any]:
@@ -82,7 +85,9 @@ class Repertorio:
 
         raise AttributeError
 
-    def _validate_request(self, endpoint: str, pk: Optional[str] = None, **kwargs: Any) -> None:
+    def _validate_request(
+        self, endpoint: str, pk: Optional[str] = None, **kwargs: Any
+    ) -> None:
         """Validates endpoint request based on the type of resource being requested
         :param endpoint: resource endpoint identifier
         :type attr: str
