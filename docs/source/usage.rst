@@ -1,20 +1,5 @@
-==========
-Repertorio
-==========
-
-.. image:: https://travis-ci.org/jtmolon/repertorio.svg?branch=master
-    :target: https://travis-ci.org/jtmolon/repertorio
-
-.. image:: https://coveralls.io/repos/github/jtmolon/repertorio/badge.svg?branch=master
-    :target: https://coveralls.io/github/jtmolon/repertorio?branch=master
-
-
-**Repertorio** is a `setlist.fm <https://www.setlist.fm/>`_ API wrapper for Python. It provides an interface to query the setlist.fm endpoints and look for artists, venues, setlists and such.
-
-For more information on the setlist.fm API, please refer to the `documentation <https://api.setlist.fm/docs/1.0/index.html>`_
-
 Usage
------
+=====
 
 ::
 
