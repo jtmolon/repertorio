@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest==7.1.2
+pytest-cov==3.0.0
+mypy==0.950
+types-requests==2.27.25
+coveralls==3.3.1
