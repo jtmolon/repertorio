@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """A setlist.fm API wrapper"""
 import logging
 from typing import Any, Callable, Dict, Optional
